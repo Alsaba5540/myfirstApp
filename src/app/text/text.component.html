@@ -1,0 +1,29 @@
+
+<h2 class="bg-info p-4">List of prime ministers by length of term</h2>
+
+<table class="table  table-bordered text-center table-dark">
+     <thead>
+          <tr>
+               <th>Name</th>
+               <th>party</th>
+               <th>Longest Continuous term</th>
+               <th>Total years of premiership</th>
+          </tr>
+     </thead>
+     <tbody>
+          <tr *ngFor="let pm of pmObj">
+               <td>{{pm.name}}</td>
+               <td>{{pm.party}}</td>
+               <td>{{pm. longestContinuousTerm}}</td>
+               <td>{{pm. totalYearOfPremiership}}</td>
+          </tr>
+
+     </tbody>
+</table>
+
+
+<div class="heading">
+     Welcome in the Angular World 
+</div>
+
+<app-image></app-image>

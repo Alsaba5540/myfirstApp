@@ -1,0 +1,43 @@
+ <!-- <app-product></app-product> -->
+<button class="btn btn-primary mb-4"  [disabled]="isdisabled" 
+(click) = "getProductStatus()"
+
+> 
+    Add Product
+</button>
+
+<p class = "alert alert-info">
+   {{productDetails}}
+</p>
+<!--
+<input type="text" class="form-control mb-4" (input) ="onkeyup($event)">
+
+<h2 class="bg-primary mt-4 p-4 ">html to ts by stringinterpol and ts to html by event binding data binding</h2>
+<div class="form-group">
+    <label>Product search</label>
+    <input type="text" class="form-control mb-4" (input) ="onkeyup($event)">
+<p>
+    {{searchProductName}}
+</p>
+
+<p [innerHTML]="searchProductName">
+
+</p>
+</div>
+
+<hr>
+<h2 class="bg-danger mb-4 p-4">
+    two way data binding
+</h2>
+<div class="form-group">
+<label for="">
+    Search Product 
+</label>
+
+<input type="text" class="form-control mb-4 p-4"
+[(ngModel)] = "searchProductName"
+>
+<p>
+    {{searchProductName}}
+</p>
+</div> -->
